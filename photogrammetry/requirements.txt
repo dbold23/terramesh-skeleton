@@ -1,0 +1,5 @@
+# Tested on arm64 macOS 15.4.1 / Python 3.14.
+pycolmap==4.2.0
+numpy==2.5.3
+pillow==12.3.0
+pytest==8.*
