@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If this project informs your work, please cite it using this metadata."
+title: "TerraMesh: iPhone habitat mapping with organisms placed in 3D"
+type: software
+authors:
+  - family-names: Sambold
+    given-names: Daniel
+    affiliation: "California State University, Monterey Bay"
+    orcid: "https://orcid.org/0009-0003-7810-650X"
+keywords:
+  - "photogrammetry"
+  - "habitat mapping"
+  - "iPhone"
+  - "LiDAR"
+  - "biodiversity"
+repository-code: "https://github.com/dbold23/terramesh-skeleton"

@@ -152,3 +152,7 @@ flowchart LR
 | `station/workers/intertidal-recon/`, `shark-morphometrics/` | Scaled reconstruction and measurement jobs |
 | `hardware/calibration-cube/`, `hardware/field-cube/` | The printed AprilTag scale cubes: OpenSCAD sources, STLs, tag artwork and print notes (generator scripts as skeletons) |
 | `hardware/3mf/` | Ready-to-print 3MF files: the 40 mm six-tag cube, numbered cubes 1 to 3, the tiled plate and cube 3 keyed |
+
+## Cite
+
+If this helps your work, please credit Daniel Sambold. GitHub's "Cite this repository" button (from `CITATION.cff`) gives the citation in APA or BibTeX.
