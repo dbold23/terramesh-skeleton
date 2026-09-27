@@ -1,0 +1,72 @@
+name: Propose a collaboration
+description: "Work together on TerraMesh: data, field sites, expertise or code."
+title: "[Collaborate] TerraMesh: "
+labels: ["collaboration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. A few short answers help me see quickly where we fit.
+        
+        Issues are public. Please do not post an email address, phone number or exact site coordinates here. I will reply on the issue and we can move to private contact from there.
+  - type: input
+    id: who
+    attributes:
+      label: "Who are you?"
+      description: "Name, and your lab, organisation or role."
+      placeholder: "Jane Doe, kelp lab at Somewhere University"
+    validations:
+      required: true
+  - type: checkboxes
+    id: problem
+    attributes:
+      label: "Which open problems interest you?"
+      options:
+        - label: "Field accuracy tests (scale, alignment, surface)"
+        - label: "On-device testing, with or without LiDAR"
+        - label: "An intertidal or cave site to survey"
+        - label: "Something else (describe below)"
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Tell me more"
+      description: "Your idea, question or what you would like to try."
+    validations:
+      required: true
+  - type: checkboxes
+    id: bring
+    attributes:
+      label: "What could you bring?"
+      options:
+        - label: "Data"
+        - label: "A field site or access"
+        - label: "Expertise or advice"
+        - label: "Code or engineering time"
+        - label: "Equipment or hardware"
+        - label: "Funding or a grant idea"
+        - label: "Students or a class"
+  - type: dropdown
+    id: when
+    attributes:
+      label: "Timeline"
+      options:
+        - "Just exploring"
+        - "In the next few months"
+        - "This year"
+        - "Tied to a deadline (say which below)"
+    validations:
+      required: false
+  - type: input
+    id: links
+    attributes:
+      label: "Links (optional)"
+      description: "A paper, lab page or repo that shows your work."
+    validations:
+      required: false
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: "Before you submit"
+      options:
+        - label: "I understand this issue is public and I have not posted private contact details or exact site locations."
+          required: true

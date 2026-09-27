@@ -1,0 +1,58 @@
+name: Share data or a field site
+description: "Offer footage, tag data, scans, labels or a site."
+title: "[Data] TerraMesh: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Data and field sites are what move these projects most. Tell me what you have; nothing is shared until we agree terms.
+        
+        Issues are public. Please do not post an email address, phone number or exact site coordinates here. I will reply on the issue and we can move to private contact from there.
+  - type: input
+    id: who
+    attributes:
+      label: "Who are you?"
+      description: "Name, and your lab, organisation or role."
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "What kind?"
+      options:
+        - "Video or photos"
+        - "Tag data (accelerometer, VHF, acoustic)"
+        - "Scans or 3D models"
+        - "Labels or annotations"
+        - "A field site or access"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "Describe it"
+      description: "Species, how much, when and roughly where it was collected."
+    validations:
+      required: true
+  - type: dropdown
+    id: terms
+    attributes:
+      label: "Sharing terms"
+      options:
+        - "Open (CC BY or similar)"
+        - "Shareable with credit, not public"
+        - "Needs a data agreement"
+        - "Not sure yet"
+    validations:
+      required: true
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: "Before you submit"
+      options:
+        - label: "I understand this issue is public and I have not posted private contact details or exact site locations."
+          required: true
+        - label: "I have the right to share what I describe, or I will check with whoever does."
+          required: true

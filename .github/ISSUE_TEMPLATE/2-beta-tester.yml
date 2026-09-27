@@ -1,0 +1,52 @@
+name: Become a beta tester
+description: "Try the iPhone app (early build) early and tell me what breaks."
+title: "[Beta] TerraMesh: "
+labels: ["beta"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering to test. Early builds are rough, and honest reports are the most useful thing you can send.
+        
+        Issues are public. Please do not post an email address, phone number or exact site coordinates here. I will reply on the issue and we can move to private contact from there.
+  - type: input
+    id: who
+    attributes:
+      label: "Who are you?"
+      description: "Name, and whether you test as an individual, a lab or a class."
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: "iPhone model and iOS version"
+      description: "LiDAR models (Pro) help most, but every device is useful."
+      placeholder: "iPhone 15 Pro, iOS 18.2"
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: "Where and how would you test?"
+      description: "The kind of place (beach, estuary, forest, lab, classroom), not exact coordinates."
+    validations:
+      required: true
+  - type: dropdown
+    id: often
+    attributes:
+      label: "How often could you test?"
+      options:
+        - "Once, to try it"
+        - "A few times over a month"
+        - "Regularly, as part of my work"
+    validations:
+      required: true
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: "Before you submit"
+      options:
+        - label: "I understand this issue is public and I have not posted private contact details or exact site locations."
+          required: true
+        - label: "I understand beta builds can lose data, and I will keep my own copies of anything important."
+          required: true
