@@ -1,0 +1,440 @@
+{
+  "release": "field-cube-land-v1",
+  "files": [
+    {
+      "file": "START_HERE.md",
+      "bytes": 9483,
+      "sha256": "7d2d5b25ddcd35fef0a98d205f371b125fd3be3215d469151a8f05542a25569e"
+    },
+    {
+      "file": "markers/LICENSE-apriltag-imgs.txt",
+      "bytes": 1357,
+      "sha256": "1dd29793f165e8de1bc21b0c894d63c0872831c203cc517d82c6851b3eb108c6"
+    },
+    {
+      "file": "markers/README.md",
+      "bytes": 3316,
+      "sha256": "c451baad040e092f7b820c8397318b5d57acb1af5b676f2d244a42210fa3caeb"
+    },
+    {
+      "file": "markers/nominal-target.json",
+      "bytes": 6178,
+      "sha256": "d9bbabb4b7a38145dec0e9180ada90511840fe4107078ce2c315bf1e50e0219f"
+    },
+    {
+      "file": "markers/tag-0-adhesive-80mm.png",
+      "bytes": 2191,
+      "sha256": "85f7e17792f69f6773af37ef8e5aec20dbad04e9032716cd58af8fc7a5ea5fdc"
+    },
+    {
+      "file": "markers/tag-0-adhesive-80mm.svg",
+      "bytes": 2297,
+      "sha256": "6bd60bcec3056c14e62dd215665de10222f6cb9b5dba8b903c80d464aad87339"
+    },
+    {
+      "file": "markers/tag-0-tile-84mm.png",
+      "bytes": 2503,
+      "sha256": "f50276740b8622168fab0b82bca8d75249f6c73d1f3a41ff02764e6004a2e6c3"
+    },
+    {
+      "file": "markers/tag-0-tile-84mm.svg",
+      "bytes": 2313,
+      "sha256": "62a5387db579b3b113261f92213b0143dd73095e46edf6aaf334f3718df302aa"
+    },
+    {
+      "file": "markers/tag-1-adhesive-80mm.png",
+      "bytes": 2203,
+      "sha256": "4e8eb1eecbd826ae325b16a15694cae1ec382f5e0acfce36253f34b297beefee"
+    },
+    {
+      "file": "markers/tag-1-adhesive-80mm.svg",
+      "bytes": 2125,
+      "sha256": "bf361c8e70440c3eedee92f8df83fed77a3b83bdff6acb3a3aa1e7da7da03df4"
+    },
+    {
+      "file": "markers/tag-1-tile-84mm.png",
+      "bytes": 2511,
+      "sha256": "dd3e996613305cf2d49384cf5b755a8981e0e3e288f984e6bb578e7363877f6d"
+    },
+    {
+      "file": "markers/tag-1-tile-84mm.svg",
+      "bytes": 2141,
+      "sha256": "4e6ca14728e61f80ff72dd57fe7c5d137c0594c59e7477f4f9ece9934cb7897a"
+    },
+    {
+      "file": "markers/tag-2-adhesive-80mm.png",
+      "bytes": 2194,
+      "sha256": "a9ef58733c12f4b680db563934489297ed98efdc509cbb5dde3f8a5748eb1821"
+    },
+    {
+      "file": "markers/tag-2-adhesive-80mm.svg",
+      "bytes": 2383,
+      "sha256": "096f99b8c86d4332c5e6f92d8174f88b765229b5bc53621e96e1e2e846df322b"
+    },
+    {
+      "file": "markers/tag-2-tile-84mm.png",
+      "bytes": 2505,
+      "sha256": "2b64401fdf3a25b53bf8760e5bb0259c1d36a072494d378db2a6975dd306001d"
+    },
+    {
+      "file": "markers/tag-2-tile-84mm.svg",
+      "bytes": 2399,
+      "sha256": "f7277fce6a7dc28b82e778cc532198ace708b303b911fd3dae5aeae058753e36"
+    },
+    {
+      "file": "markers/tag-3-adhesive-80mm.png",
+      "bytes": 2189,
+      "sha256": "3622494cdecf299299b2773aeed2289e2c078acbe2f3ff19af35d1c3de3518ba"
+    },
+    {
+      "file": "markers/tag-3-adhesive-80mm.svg",
+      "bytes": 2168,
+      "sha256": "1812f13127854c00b481aa2e9334dc950a6ee80d6759da233e237c63ffbe1b0f"
+    },
+    {
+      "file": "markers/tag-3-tile-84mm.png",
+      "bytes": 2504,
+      "sha256": "7c45c9d48f300be2455ba13b00d9dffd6c6fb9024efb4a25cc3d5b659a121e25"
+    },
+    {
+      "file": "markers/tag-3-tile-84mm.svg",
+      "bytes": 2184,
+      "sha256": "8e9caf9531d01a5d16450628a01fe15caca7ad0970d8b2d53bfbb1e03bdcb86f"
+    },
+    {
+      "file": "markers/tag-4-adhesive-80mm.png",
+      "bytes": 2190,
+      "sha256": "95f755b7d9c6d26d65adbbd785632c85bc37c4072708627dc38bae4191537c36"
+    },
+    {
+      "file": "markers/tag-4-adhesive-80mm.svg",
+      "bytes": 2211,
+      "sha256": "c31cfea6160262830792cd72b74ebafe6f30ece3c57a6d96a37fea3b85761ad2"
+    },
+    {
+      "file": "markers/tag-4-tile-84mm.png",
+      "bytes": 2503,
+      "sha256": "f95affe9b8bc44d8ad3179620e07f3887bd1f1e1fc897865ae485d1b4c377755"
+    },
+    {
+      "file": "markers/tag-4-tile-84mm.svg",
+      "bytes": 2227,
+      "sha256": "1377f5a02e5b093b181d082f48e646af48f27b38daa41479b6bddf1dc1131dde"
+    },
+    {
+      "file": "markers/tag-5-adhesive-80mm.png",
+      "bytes": 2193,
+      "sha256": "955ccb407abe277b31d220489fb766b9b3bbb8ef0089702bfa88def099165059"
+    },
+    {
+      "file": "markers/tag-5-adhesive-80mm.svg",
+      "bytes": 2082,
+      "sha256": "ca59b60c0c635f9d084549794168fb90a3f8a5220d414c0ee8178bc1d8cc60b1"
+    },
+    {
+      "file": "markers/tag-5-tile-84mm.png",
+      "bytes": 2501,
+      "sha256": "92d399b3f20351db7c64631c0d680ba91bbe11653426879de30857cfb745fe05"
+    },
+    {
+      "file": "markers/tag-5-tile-84mm.svg",
+      "bytes": 2098,
+      "sha256": "61e59888b43784f545d44382903cbff565eec56cdf0e881c5e66249479f7b011"
+    },
+    {
+      "file": "markers/tags-a4-actual-size.png",
+      "bytes": 57029,
+      "sha256": "9018b4a09ea03b0b271184984b796fa4fc99a1d769764e9cd8f3b5fcc96f4af9"
+    },
+    {
+      "file": "markers/tags-a4-actual-size.svg",
+      "bytes": 14837,
+      "sha256": "51e36ec94cb2cc7f149492548cb05d061a89d61fa8b3810a4dfdad70e51b8c41"
+    },
+    {
+      "file": "markers/upstream/LICENSE-apriltag-imgs.txt",
+      "bytes": 1357,
+      "sha256": "1dd29793f165e8de1bc21b0c894d63c0872831c203cc517d82c6851b3eb108c6"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00000.png",
+      "bytes": 113,
+      "sha256": "48d811f770fc3595aaf5650a5fd8007843e7fece1f8fdcb94e0f113b4c9ed0c6"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00001.png",
+      "bytes": 116,
+      "sha256": "2b30c316b3f8f32d80ba4e83feee8471c41a04aeba75bf1a23f1cf9c990394ce"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00002.png",
+      "bytes": 112,
+      "sha256": "56c1561f55d075bc256cc5dddd44ca067d979095d9147f423b6672a4cf144957"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00003.png",
+      "bytes": 113,
+      "sha256": "1faf4f5388680a6f9f54f2c67d47570dd043aad67f206ca2f429d3a21d77ff94"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00004.png",
+      "bytes": 113,
+      "sha256": "1031c40f2c885e8646fae72bb147a12ba328b66d02c2dd59c7ee2a727d217c1c"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00005.png",
+      "bytes": 113,
+      "sha256": "31c8d2bed9f1df0f7f30735cf22cd912765f2f4cb972b033c76158aaa7a96562"
+    },
+    {
+      "file": "markers/upstream/tag36h11.c",
+      "bytes": 18624,
+      "sha256": "38ff6e308067eb32ccf624e9cc5e7a75b45ad82b3cf9f80980cb86ebaa88512b"
+    },
+    {
+      "file": "markers/verification.json",
+      "bytes": 3445,
+      "sha256": "cb163b287c017d6cbe8f663e7206ce4c7641d586a86991d8cfd459960b651409"
+    },
+    {
+      "file": "preview/assembled.png",
+      "bytes": 68080,
+      "sha256": "3760d63c09f7d83ba2295cf4a56ef5d5bb4e8edb578259a246361ff3db2c8b1c"
+    },
+    {
+      "file": "preview/exploded.png",
+      "bytes": 71595,
+      "sha256": "b8753a66187ce372e52912fc9542023317136741bb177300d363ee00ad0c7a1c"
+    },
+    {
+      "file": "preview/field-cube-overview.png",
+      "bytes": 92527,
+      "sha256": "a8aea66e7ac7f109a2815d99832460301bb0987f66149b447ae1cc4862d910c9"
+    },
+    {
+      "file": "preview/render-manifest.json",
+      "bytes": 1836,
+      "sha256": "28992b4a10276335597cae834f75bba6839fe7ad70158b8e89e6200686abe6d5"
+    },
+    {
+      "file": "preview/retrieval-corner.png",
+      "bytes": 63767,
+      "sha256": "bf43cc00a266c3f6b43f0c776128ba82481254f821277393099ea28e05e620c6"
+    },
+    {
+      "file": "source/export_stls.py",
+      "bytes": 1948,
+      "sha256": "35f5494721a61522bc032d8439fed8b4e11137cb74a07bc22544c41e2197a186"
+    },
+    {
+      "file": "source/field_cube.scad",
+      "bytes": 5607,
+      "sha256": "e90c74cec905042b465c0fbb8d5fb83bf3a7bb89bd60eb39722dc3ec4e6f0c09"
+    },
+    {
+      "file": "source/generate_markers.py",
+      "bytes": 19069,
+      "sha256": "57811b735e4bd8e17c515534e7ee9029017d4b23ed025b97fee8f5ec3a336867"
+    },
+    {
+      "file": "source/markers.scad",
+      "bytes": 3247,
+      "sha256": "f34ee66da274d0611249020ec87cb134621b789f81cf68a3c6a3f322aa45adbd"
+    },
+    {
+      "file": "source/render_preview.py",
+      "bytes": 9266,
+      "sha256": "837118581aad415b38f8f2ff214c69173931b5d2bf6f931422b1e55b07c71fd1"
+    },
+    {
+      "file": "source/verify_geometry.py",
+      "bytes": 5767,
+      "sha256": "1faf4a3d58ca520d3cdf1f573be7dc352290c79e6d22c46cf24f9b95f8fb327a"
+    },
+    {
+      "file": "stl/01_body_ASA.stl",
+      "bytes": 216484,
+      "sha256": "7b1dd47b5a318abbd85fbf0cead95e22932f0cd287bcfcdb29b07c13bcd31a0e"
+    },
+    {
+      "file": "stl/02_lid_ASA.stl",
+      "bytes": 66284,
+      "sha256": "f39f06ba4346e07422c7f2cc1f3d849e2c863695315ef2d24a52e3b04d9f2f41"
+    },
+    {
+      "file": "stl/03_bumper_cuff_TPU_PRINT_TWO.stl",
+      "bytes": 61084,
+      "sha256": "bc674a38ccfd4be0c128e00019d11abad5682bd29cae92f786855e8aea91c29d"
+    },
+    {
+      "file": "stl/04_tag_0_WHITE_then_BLACK.stl",
+      "bytes": 19884,
+      "sha256": "5c42593c3ffae401867c9e244d14183ecbd92bb7906f48daa53d4e1f2d9f7a08"
+    },
+    {
+      "file": "stl/05_tag_1_WHITE_then_BLACK.stl",
+      "bytes": 24284,
+      "sha256": "2cde5cc94144b1d1610a9df6f8937dd4c0d96862b3f82e58adfcd640713bae9f"
+    },
+    {
+      "file": "stl/06_tag_2_WHITE_then_BLACK.stl",
+      "bytes": 19484,
+      "sha256": "6cbba6ba34411e9aaf9fa44fab587df4e652242eccf9e6ed9469478d2c4c9dcf"
+    },
+    {
+      "file": "stl/07_tag_3_WHITE_then_BLACK.stl",
+      "bytes": 18684,
+      "sha256": "c93e284389f7a67df28bdc46347b785ba1388716552c8c76dd0f90630720f275"
+    },
+    {
+      "file": "stl/08_tag_4_WHITE_then_BLACK.stl",
+      "bytes": 20284,
+      "sha256": "a285ad1891e423ce089d2e9e6cf16b294be06df730eff3b8a9421c13fb03dca8"
+    },
+    {
+      "file": "stl/09_tag_5_WHITE_then_BLACK.stl",
+      "bytes": 21484,
+      "sha256": "bea77dcebcc0f6e1b8951bad5ba66eea4993e3ee3e3d83431e5d79accce879c4"
+    },
+    {
+      "file": "stl/10_blank_tile_for_adhesive.stl",
+      "bytes": 7884,
+      "sha256": "4244b3be805712751eb36726d563bb9fec028024021d9ab5d38ef07762b8f758"
+    },
+    {
+      "file": "stl/11_fit_coupon_PRINT_FIRST.stl",
+      "bytes": 29084,
+      "sha256": "8c3353a1ecd8e4969b5a587aae2c03a525d657f5f2252bdf0f4c0a107b5bc137"
+    },
+    {
+      "file": "stl/12_tile_fit_strip_PRINT_FIRST.stl",
+      "bytes": 684,
+      "sha256": "cb1ff04d2023d8f2aa5f0c486a2e4654264ecffabfb2d5b1488d565eaded4625"
+    },
+    {
+      "file": "stl/13_bumper_fit_clip_TPU_PRINT_FIRST.stl",
+      "bytes": 1884,
+      "sha256": "28c10463dab02321ff619af7de4ab7e028b9234ceced60e18b58935def8a87ab"
+    },
+    {
+      "file": "stl/14_core_fit_rail_ASA_PRINT_FIRST.stl",
+      "bytes": 1484,
+      "sha256": "4b20a698693598e863e389414c20af585d2df5121ed62652c2688fee81ccdc00"
+    },
+    {
+      "file": "verification/blank_tile-openscad.log",
+      "bytes": 208,
+      "sha256": "bcc69f0cccfcdfa89e257401d34598d6d9145e4e2105555371d4f753ebc250bc"
+    },
+    {
+      "file": "verification/body-openscad.log",
+      "bytes": 349,
+      "sha256": "138021bd172367ee0ebc8fe128e3ccc69e6d3c06a23262612c0cca2e07bb2d6a"
+    },
+    {
+      "file": "verification/bottom_guard-openscad.log",
+      "bytes": 347,
+      "sha256": "2fbc802014d58a50550bf7420ec687b2838c03d896081092f7a3f6a2aa1a5a7b"
+    },
+    {
+      "file": "verification/core_fit_rail-openscad.log",
+      "bytes": 343,
+      "sha256": "9e4b93ecd5a8b2e9503c53b4d1e253cc2788522e8fb087fcd02153bc602fa42d"
+    },
+    {
+      "file": "verification/cuff-openscad.log",
+      "bytes": 348,
+      "sha256": "9fb58d767dd1b3220d6408f4d22dad55acc06e46443f4a91db882b555f685cc3"
+    },
+    {
+      "file": "verification/cuff_fit_clip-openscad.log",
+      "bytes": 348,
+      "sha256": "5efdc53f93720cb39171dc491c7995e9ac1a4bc5d2317ae62dddc498ef35b812"
+    },
+    {
+      "file": "verification/exports.json",
+      "bytes": 1610,
+      "sha256": "ce6bccee5ad7b744ec6019a9f3aecde807673abeb5fac0cbb985178e7464ee39"
+    },
+    {
+      "file": "verification/fit_coupon-openscad.log",
+      "bytes": 346,
+      "sha256": "7d313902cbedda17032e6cb4e44c2adbe10a85c1aa56836a2b67e252f408c1b4"
+    },
+    {
+      "file": "verification/geometry-report.json",
+      "bytes": 9948,
+      "sha256": "8bfe541f8ca81a038983956fea1839ed9e702e8497d7ac982244e4d350745ebc"
+    },
+    {
+      "file": "verification/lid-openscad.log",
+      "bytes": 347,
+      "sha256": "840eb79020d2e154943569d1fe056e5365261e98ab174f36eaf3561cef79c503"
+    },
+    {
+      "file": "verification/tag-0-actual-stl-projection.png",
+      "bytes": 3068,
+      "sha256": "33dcdaefa91e042d33841a4385882860e10e06e197cdcf09b5805f7e0fc7b69a"
+    },
+    {
+      "file": "verification/tag-1-actual-stl-projection.png",
+      "bytes": 3074,
+      "sha256": "4fa1e567671a3c0b3e926cef36804b4e22657de3afb75b9847ccab68ade907e2"
+    },
+    {
+      "file": "verification/tag-2-actual-stl-projection.png",
+      "bytes": 3067,
+      "sha256": "9a4fff1f1a53cb3fee43e3ea9bc91bb087ce5a37bf46936c59a3dd27f5e5804a"
+    },
+    {
+      "file": "verification/tag-3-actual-stl-projection.png",
+      "bytes": 3072,
+      "sha256": "7dfcd937341b42e3075a18e5d84717f132cca5a573d07581a4dd32430fb8b694"
+    },
+    {
+      "file": "verification/tag-4-actual-stl-projection.png",
+      "bytes": 3065,
+      "sha256": "36217864e313ea1a9b07fc9c749575db66493534b2e136558bff71007dfee03e"
+    },
+    {
+      "file": "verification/tag-5-actual-stl-projection.png",
+      "bytes": 3079,
+      "sha256": "8d1b87a36e331eadabfc6553938dbe744d66e3c1912309b1189112aa45e8e0e5"
+    },
+    {
+      "file": "verification/tile0-openscad.log",
+      "bytes": 346,
+      "sha256": "b14d6c1ac48d13a36f572299e3c76298eb0a0a983dc1817d7a823d0bb696d881"
+    },
+    {
+      "file": "verification/tile1-openscad.log",
+      "bytes": 346,
+      "sha256": "7adf12900536ee3a1a27b33d202ce004a3a9d9846262b355cdda3053c9c424b7"
+    },
+    {
+      "file": "verification/tile2-openscad.log",
+      "bytes": 346,
+      "sha256": "2c1e9846b4936e3898168a92ff4e3b18b561365eb0dc42563a5fe1c1a451fe62"
+    },
+    {
+      "file": "verification/tile3-openscad.log",
+      "bytes": 346,
+      "sha256": "c225c5ef69f24c130c50ff2ef069cc52a3061ef62c5784e902e97ab777cf14e3"
+    },
+    {
+      "file": "verification/tile4-openscad.log",
+      "bytes": 346,
+      "sha256": "fe107589dd714f271f20514992d1edc340d41050fe46fa0522dc434fb3902baa"
+    },
+    {
+      "file": "verification/tile5-openscad.log",
+      "bytes": 346,
+      "sha256": "83eab149d5754c05c124c509a3a64be9ded5a84871ad52ec27430960348e0a97"
+    },
+    {
+      "file": "verification/tile_strip-openscad.log",
+      "bytes": 206,
+      "sha256": "27ad9a427e85a3208561d34a40e5408886d33a861800f78fd47d380bd00b0237"
+    }
+  ]
+}

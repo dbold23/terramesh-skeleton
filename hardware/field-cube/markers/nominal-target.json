@@ -1,0 +1,326 @@
+{
+  "name": "TerraMesh Field Cube v1 nominal target",
+  "status": "NOMINAL CAD DIMENSIONS ONLY \u2014 NOT A CALIBRATION CERTIFICATE",
+  "units": "mm",
+  "family": "tag36h11",
+  "opencv_dictionary": "DICT_APRILTAG_36h11",
+  "artwork_orientation": "Official AprilRobotics PNGs rotated 180 degrees to match OpenCV canonical dictionary orientation; generated artwork top maps to face +v.",
+  "corner_order": [
+    "canonical_top_left",
+    "canonical_top_right",
+    "canonical_bottom_right",
+    "canonical_bottom_left"
+  ],
+  "coordinate_frame": {
+    "handedness": "right",
+    "origin_in_body_coordinates_mm": [
+      0,
+      0,
+      56
+    ],
+    "axes": "+X right, +Y back, +Z up; orientation is arbitrary after throwing",
+    "face_u": "right in canonical marker artwork when looking at the face from outside",
+    "face_v": "up in canonical marker artwork when looking at the face from outside",
+    "face_normal": "u cross v, outward"
+  },
+  "detected_tag_side_mm": 64.0,
+  "tile_side_mm": 84.0,
+  "white_tile_base_thickness_mm": 1.2,
+  "black_relief_thickness_mm": 0.4,
+  "manufacturing_relief": {
+    "internal_black_dilation_radius_mm": 0.02,
+    "outer_detected_square_clipped_to_mm": 64,
+    "purpose": "Resolve diagonally touching black-cell edges into manifold extrudable geometry; ideal adhesive artwork remains unchanged."
+  },
+  "adhesive_artwork_side_mm": 80.0,
+  "adhesive_artwork_quiet_margin_mm": 8,
+  "printed_tile_quiet_margin_mm": 10,
+  "geometry_applies_to": "raised black top surface of the 1.6 mm printed tile",
+  "adhesive_warning": "Blank tile/adhesive surfaces have different normal offsets. Update measured centers and corner coordinates; do not reuse these raised-face coordinates unchanged.",
+  "calibration_notes": [
+    "Measure the black/white border intersection: 64 mm nominal, not the white artwork or tile edge.",
+    "Measure each finished tag in both axes and check flatness and diagonals before use.",
+    "Joint cube pose requires actual face centers, seating and orientation; printed nominal dimensions alone are insufficient for accuracy claims.",
+    "Inspect and remeasure after impacts or replacing a tile. Keep the target stationary during capture.",
+    "Validate reconstruction scale with an independent measured distance elsewhere in the scene.",
+    "AprilTag native detections and OpenCV use different corner conventions; this JSON specifies OpenCV canonical TL,TR,BR,BL."
+  ],
+  "faces": [
+    {
+      "id": 0,
+      "face": "front",
+      "center_mm": [
+        0.0,
+        -55.6,
+        0.0
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outward_normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "corners_mm": [
+        [
+          -32.0,
+          -55.6,
+          32.0
+        ],
+        [
+          32.0,
+          -55.6,
+          32.0
+        ],
+        [
+          32.0,
+          -55.6,
+          -32.0
+        ],
+        [
+          -32.0,
+          -55.6,
+          -32.0
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "face": "right",
+      "center_mm": [
+        55.6,
+        0.0,
+        0.0
+      ],
+      "u": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outward_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "corners_mm": [
+        [
+          55.6,
+          -32.0,
+          32.0
+        ],
+        [
+          55.6,
+          32.0,
+          32.0
+        ],
+        [
+          55.6,
+          32.0,
+          -32.0
+        ],
+        [
+          55.6,
+          -32.0,
+          -32.0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "face": "back",
+      "center_mm": [
+        0.0,
+        55.6,
+        0.0
+      ],
+      "u": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outward_normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "corners_mm": [
+        [
+          32.0,
+          55.6,
+          32.0
+        ],
+        [
+          -32.0,
+          55.6,
+          32.0
+        ],
+        [
+          -32.0,
+          55.6,
+          -32.0
+        ],
+        [
+          32.0,
+          55.6,
+          -32.0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "face": "left",
+      "center_mm": [
+        -55.6,
+        0.0,
+        0.0
+      ],
+      "u": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "outward_normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "corners_mm": [
+        [
+          -55.6,
+          32.0,
+          32.0
+        ],
+        [
+          -55.6,
+          -32.0,
+          32.0
+        ],
+        [
+          -55.6,
+          -32.0,
+          -32.0
+        ],
+        [
+          -55.6,
+          32.0,
+          -32.0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "face": "top",
+      "center_mm": [
+        0.0,
+        0.0,
+        55.6
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "corners_mm": [
+        [
+          -32.0,
+          32.0,
+          55.6
+        ],
+        [
+          32.0,
+          32.0,
+          55.6
+        ],
+        [
+          32.0,
+          -32.0,
+          55.6
+        ],
+        [
+          -32.0,
+          -32.0,
+          55.6
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "face": "bottom",
+      "center_mm": [
+        0.0,
+        0.0,
+        -57.6
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "corners_mm": [
+        [
+          -32.0,
+          -32.0,
+          -57.6
+        ],
+        [
+          32.0,
+          -32.0,
+          -57.6
+        ],
+        [
+          32.0,
+          32.0,
+          -57.6
+        ],
+        [
+          -32.0,
+          32.0,
+          -57.6
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "renderer": "Orthographic triangle rasterizer with per-pixel z-buffer",
+  "source": "Exported STL files; assembly transforms mirror field_cube.scad",
+  "hardware_or_cord_modeled": false,
+  "color_method": "ASA orange, TPU charcoal; tag faces above local z=1.2 mm black, others white",
+  "source_mesh_count": 9,
+  "assembly_instance_count": 10,
+  "verified_assembled_bounds_mm": [
+    [
+      -60.0,
+      -60.0,
+      -5.0
+    ],
+    [
+      60.0,
+      60.0,
+      117.0
+    ]
+  ],
+  "verified_assembled_dimensions_mm": [
+    120.0,
+    120.0,
+    122.0
+  ],
+  "source_sha256": {
+    "01_body_ASA.stl": "7b1dd47b5a318abbd85fbf0cead95e22932f0cd287bcfcdb29b07c13bcd31a0e",
+    "02_lid_ASA.stl": "f39f06ba4346e07422c7f2cc1f3d849e2c863695315ef2d24a52e3b04d9f2f41",
+    "03_bumper_cuff_TPU_PRINT_TWO.stl": "bc674a38ccfd4be0c128e00019d11abad5682bd29cae92f786855e8aea91c29d",
+    "04_tag_0_WHITE_then_BLACK.stl": "5c42593c3ffae401867c9e244d14183ecbd92bb7906f48daa53d4e1f2d9f7a08",
+    "05_tag_1_WHITE_then_BLACK.stl": "2cde5cc94144b1d1610a9df6f8937dd4c0d96862b3f82e58adfcd640713bae9f",
+    "06_tag_2_WHITE_then_BLACK.stl": "6cbba6ba34411e9aaf9fa44fab587df4e652242eccf9e6ed9469478d2c4c9dcf",
+    "07_tag_3_WHITE_then_BLACK.stl": "c93e284389f7a67df28bdc46347b785ba1388716552c8c76dd0f90630720f275",
+    "08_tag_4_WHITE_then_BLACK.stl": "a285ad1891e423ce089d2e9e6cf16b294be06df730eff3b8a9421c13fb03dca8",
+    "09_tag_5_WHITE_then_BLACK.stl": "bea77dcebcc0f6e1b8951bad5ba66eea4993e3ee3e3d83431e5d79accce879c4"
+  },
+  "cad_source_sha256": {
+    "field_cube.scad": "e90c74cec905042b465c0fbb8d5fb83bf3a7bb89bd60eb39722dc3ec4e6f0c09",
+    "markers.scad": "f34ee66da274d0611249020ec87cb134621b789f81cf68a3c6a3f322aa45adbd"
+  },
+  "outputs": [
+    "assembled.png",
+    "retrieval-corner.png",
+    "exploded.png",
+    "field-cube-overview.png"
+  ]
+}

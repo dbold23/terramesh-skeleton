@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01_body_ASA.stl",
+    "part": "body",
+    "tag_id": null,
+    "seconds": 30.7
+  },
+  {
+    "file": "02_lid_ASA.stl",
+    "part": "lid",
+    "tag_id": null,
+    "seconds": 8.01
+  },
+  {
+    "file": "03_bumper_cuff_TPU_PRINT_TWO.stl",
+    "part": "cuff",
+    "tag_id": null,
+    "seconds": 8.2
+  },
+  {
+    "file": "04_tag_0_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 0,
+    "seconds": 2.36
+  },
+  {
+    "file": "05_tag_1_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 1,
+    "seconds": 3.34
+  },
+  {
+    "file": "06_tag_2_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 2,
+    "seconds": 1.93
+  },
+  {
+    "file": "07_tag_3_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 3,
+    "seconds": 1.83
+  },
+  {
+    "file": "08_tag_4_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 4,
+    "seconds": 2.14
+  },
+  {
+    "file": "09_tag_5_WHITE_then_BLACK.stl",
+    "part": "tile",
+    "tag_id": 5,
+    "seconds": 2.04
+  },
+  {
+    "file": "10_blank_tile_for_adhesive.stl",
+    "part": "blank_tile",
+    "tag_id": null,
+    "seconds": 0.23
+  },
+  {
+    "file": "11_fit_coupon_PRINT_FIRST.stl",
+    "part": "fit_coupon",
+    "tag_id": null,
+    "seconds": 1.88
+  },
+  {
+    "file": "12_tile_fit_strip_PRINT_FIRST.stl",
+    "part": "tile_strip",
+    "tag_id": null,
+    "seconds": 0.15
+  },
+  {
+    "file": "13_bumper_fit_clip_TPU_PRINT_FIRST.stl",
+    "part": "cuff_fit_clip",
+    "tag_id": null,
+    "seconds": 8.61
+  },
+  {
+    "file": "14_core_fit_rail_ASA_PRINT_FIRST.stl",
+    "part": "core_fit_rail",
+    "tag_id": null,
+    "seconds": 0.32
+  }
+]

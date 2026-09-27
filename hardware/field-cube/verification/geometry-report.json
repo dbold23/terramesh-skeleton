@@ -1,0 +1,496 @@
+{
+  "status": "PASS",
+  "stl_files_checked": 14,
+  "assembled_printed_parts": 10,
+  "assembly_bounds_mm": [
+    [
+      -60.0,
+      -60.0,
+      -5.0
+    ],
+    [
+      60.0,
+      60.0,
+      117.0
+    ]
+  ],
+  "assembly_size_mm": [
+    120.0,
+    120.0,
+    122.0
+  ],
+  "parts": [
+    {
+      "file": "01_body_ASA.stl",
+      "triangles": 4328,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -56.0,
+          -56.0,
+          0.0
+        ],
+        [
+          56.0,
+          56.0,
+          106.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 295.1893,
+      "sha256": "7b1dd47b5a318abbd85fbf0cead95e22932f0cd287bcfcdb29b07c13bcd31a0e"
+    },
+    {
+      "file": "02_lid_ASA.stl",
+      "triangles": 1324,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -56.0,
+          -56.0,
+          0.0
+        ],
+        [
+          56.0,
+          56.0,
+          6.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 59.95707,
+      "sha256": "f39f06ba4346e07422c7f2cc1f3d849e2c863695315ef2d24a52e3b04d9f2f41"
+    },
+    {
+      "file": "03_bumper_cuff_TPU_PRINT_TWO.stl",
+      "triangles": 1220,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -60.0,
+          -60.0,
+          0.0
+        ],
+        [
+          60.0,
+          60.0,
+          17.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 45.70169,
+      "sha256": "bc674a38ccfd4be0c128e00019d11abad5682bd29cae92f786855e8aea91c29d"
+    },
+    {
+      "file": "04_tag_0_WHITE_then_BLACK.stl",
+      "triangles": 396,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.69534,
+      "sha256": "5c42593c3ffae401867c9e244d14183ecbd92bb7906f48daa53d4e1f2d9f7a08"
+    },
+    {
+      "file": "05_tag_1_WHITE_then_BLACK.stl",
+      "triangles": 484,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.59307,
+      "sha256": "2cde5cc94144b1d1610a9df6f8937dd4c0d96862b3f82e58adfcd640713bae9f"
+    },
+    {
+      "file": "06_tag_2_WHITE_then_BLACK.stl",
+      "triangles": 388,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.74654,
+      "sha256": "6cbba6ba34411e9aaf9fa44fab587df4e652242eccf9e6ed9469478d2c4c9dcf"
+    },
+    {
+      "file": "07_tag_3_WHITE_then_BLACK.stl",
+      "triangles": 372,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.6188,
+      "sha256": "c93e284389f7a67df28bdc46347b785ba1388716552c8c76dd0f90630720f275"
+    },
+    {
+      "file": "08_tag_4_WHITE_then_BLACK.stl",
+      "triangles": 404,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.64402,
+      "sha256": "a285ad1891e423ce089d2e9e6cf16b294be06df730eff3b8a9421c13fb03dca8"
+    },
+    {
+      "file": "09_tag_5_WHITE_then_BLACK.stl",
+      "triangles": 428,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 9.5676,
+      "sha256": "bea77dcebcc0f6e1b8951bad5ba66eea4993e3ee3e3d83431e5d79accce879c4"
+    },
+    {
+      "file": "10_blank_tile_for_adhesive.stl",
+      "triangles": 156,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -42.0,
+          -42.0,
+          0.0
+        ],
+        [
+          42.0,
+          42.0,
+          1.2
+        ]
+      ],
+      "solid_CAD_volume_cm3": 8.46399,
+      "sha256": "4244b3be805712751eb36726d563bb9fec028024021d9ab5d38ef07762b8f758"
+    },
+    {
+      "file": "11_fit_coupon_PRINT_FIRST.stl",
+      "triangles": 580,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          96.0,
+          28.0,
+          8.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 18.3997,
+      "sha256": "8c3353a1ecd8e4969b5a587aae2c03a525d657f5f2252bdf0f4c0a107b5bc137"
+    },
+    {
+      "file": "12_tile_fit_strip_PRINT_FIRST.stl",
+      "triangles": 12,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          84.0,
+          12.0,
+          1.6
+        ]
+      ],
+      "solid_CAD_volume_cm3": 1.6128,
+      "sha256": "cb1ff04d2023d8f2aa5f0c486a2e4654264ecffabfb2d5b1488d565eaded4625"
+    },
+    {
+      "file": "13_bumper_fit_clip_TPU_PRINT_FIRST.stl",
+      "triangles": 36,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          -18.0,
+          -60.0,
+          0.0
+        ],
+        [
+          18.0,
+          -51.0,
+          17.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 3.3048,
+      "sha256": "28c10463dab02321ff619af7de4ab7e028b9234ceced60e18b58935def8a87ab"
+    },
+    {
+      "file": "14_core_fit_rail_ASA_PRINT_FIRST.stl",
+      "triangles": 28,
+      "watertight": true,
+      "connected_solids": 1,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          8.0,
+          12.0
+        ]
+      ],
+      "solid_CAD_volume_cm3": 3.4128,
+      "sha256": "4b20a698693598e863e389414c20af585d2df5121ed62652c2688fee81ccdc00"
+    }
+  ],
+  "potentially_overlapping_pairs_checked": 12,
+  "collisions": [
+    {
+      "a": "body",
+      "b": "lid",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "bottom_cuff",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "top_cuff",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "tag0",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "tag1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "tag2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "tag3",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "body",
+      "b": "tag5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "lid",
+      "b": "top_cuff",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "lid",
+      "b": "tag4",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "bottom_cuff",
+      "b": "tag5",
+      "intersection_mm3": 0.0
+    },
+    {
+      "a": "top_cuff",
+      "b": "tag4",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "actual_STL_marker_detection_cases": 24,
+  "marker_detection": [
+    {
+      "tag": 0,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 0,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 0,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 0,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 1,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 1,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 1,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 1,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 2,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 2,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 2,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 2,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 3,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 3,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 3,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 3,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 4,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 4,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 4,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 4,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 5,
+      "rotation_deg": 0,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 5,
+      "rotation_deg": 90,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 5,
+      "rotation_deg": 180,
+      "canonical_corner_error_px": 0.0
+    },
+    {
+      "tag": 5,
+      "rotation_deg": 270,
+      "canonical_corner_error_px": 0.0
+    }
+  ],
+  "cord_passage_2mm_probe_clear": true,
+  "limits": [
+    "CAD geometry and synthetic-image checks only; no physical print, drop or survey tests.",
+    "CAD volume is not a sliced filament mass or print time.",
+    "No printer-specific toolpath is included; inspect the H2D slice and print coupons first."
+  ]
+}

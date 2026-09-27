@@ -1,0 +1,95 @@
+{
+  "family": "tag36h11",
+  "marker_count": 6,
+  "unique_marker_patterns": 6,
+  "all_nominal_tag_edges_mm": 64,
+  "checks": [
+    {
+      "id": 0,
+      "black_cells": 48,
+      "white_payload_cells": 16,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    },
+    {
+      "id": 1,
+      "black_cells": 44,
+      "white_payload_cells": 20,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    },
+    {
+      "id": 2,
+      "black_cells": 50,
+      "white_payload_cells": 14,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    },
+    {
+      "id": 3,
+      "black_cells": 45,
+      "white_payload_cells": 19,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    },
+    {
+      "id": 4,
+      "black_cells": 46,
+      "white_payload_cells": 18,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    },
+    {
+      "id": 5,
+      "black_cells": 43,
+      "white_payload_cells": 21,
+      "official_png_matches_family_source": true,
+      "upstream_png_rotation_to_generated_artwork_degrees": 180
+    }
+  ],
+  "source_assets": [
+    {
+      "file": "markers/upstream/tag36_11_00000.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00000.png",
+      "sha256": "48d811f770fc3595aaf5650a5fd8007843e7fece1f8fdcb94e0f113b4c9ed0c6"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00001.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00001.png",
+      "sha256": "2b30c316b3f8f32d80ba4e83feee8471c41a04aeba75bf1a23f1cf9c990394ce"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00002.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00002.png",
+      "sha256": "56c1561f55d075bc256cc5dddd44ca067d979095d9147f423b6672a4cf144957"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00003.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00003.png",
+      "sha256": "1faf4f5388680a6f9f54f2c67d47570dd043aad67f206ca2f429d3a21d77ff94"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00004.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00004.png",
+      "sha256": "1031c40f2c885e8646fae72bb147a12ba328b66d02c2dd59c7ee2a727d217c1c"
+    },
+    {
+      "file": "markers/upstream/tag36_11_00005.png",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag-imgs/master/tag36h11/tag36_11_00005.png",
+      "sha256": "31c8d2bed9f1df0f7f30735cf22cd912765f2f4cb972b033c76158aaa7a96562"
+    },
+    {
+      "file": "markers/upstream/tag36h11.c",
+      "url": "https://raw.githubusercontent.com/AprilRobotics/apriltag/master/tag36h11.c",
+      "sha256": "38ff6e308067eb32ccf624e9cc5e7a75b45ad82b3cf9f80980cb86ebaa88512b"
+    }
+  ],
+  "opencv_verification": {
+    "version": "5.0.0",
+    "canonical_bitmaps_match": true,
+    "rotation_and_perspective_decode_cases": 30,
+    "all_ids_and_canonical_corner_orders_match": true,
+    "max_synthetic_corner_error_pixels": 0.7429086565971375,
+    "synthetic_only": true
+  }
+}

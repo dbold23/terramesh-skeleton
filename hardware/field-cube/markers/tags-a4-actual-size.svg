@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" shape-rendering="crispEdges">
+<rect width="210" height="297" fill="white"/>
+<g font-family="sans-serif" fill="black" font-size="3"><text x="20" y="8">FIELD CUBE · tag36h11 · print at 100% / actual size</text>
+<text x="20" y="13">Each black square is 64 mm. White label is 80 × 80 mm.</text></g>
+<g transform="translate(20 20)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="16" y="16" width="8" height="8"/>
+<rect x="24" y="16" width="8" height="8"/>
+<rect x="40" y="16" width="8" height="8"/>
+<rect x="48" y="16" width="8" height="8"/>
+<rect x="56" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="16" y="24" width="8" height="8"/>
+<rect x="40" y="24" width="8" height="8"/>
+<rect x="56" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="16" y="32" width="8" height="8"/>
+<rect x="24" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="48" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="16" y="40" width="8" height="8"/>
+<rect x="24" y="40" width="8" height="8"/>
+<rect x="32" y="40" width="8" height="8"/>
+<rect x="56" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="24" y="48" width="8" height="8"/>
+<rect x="56" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="24" y="56" width="8" height="8"/>
+<rect x="40" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="20" y="18" font-family="sans-serif" font-size="3">ID 0</text>
+<path d="M 19 20 h -2 M 20 19 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 20 h 2 M 100 19 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 19 100 h -2 M 20 101 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 100 h 2 M 100 101 v 2" stroke="#777" stroke-width="0.15"/>
+<g transform="translate(110 20)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="24" y="16" width="8" height="8"/>
+<rect x="32" y="16" width="8" height="8"/>
+<rect x="48" y="16" width="8" height="8"/>
+<rect x="56" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="24" y="24" width="8" height="8"/>
+<rect x="48" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="16" y="32" width="8" height="8"/>
+<rect x="24" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="56" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="16" y="40" width="8" height="8"/>
+<rect x="24" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="40" y="48" width="8" height="8"/>
+<rect x="56" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="16" y="56" width="8" height="8"/>
+<rect x="40" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="110" y="18" font-family="sans-serif" font-size="3">ID 1</text>
+<path d="M 109 20 h -2 M 110 19 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 20 h 2 M 190 19 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 109 100 h -2 M 110 101 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 100 h 2 M 190 101 v 2" stroke="#777" stroke-width="0.15"/>
+<g transform="translate(20 110)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="16" y="16" width="8" height="8"/>
+<rect x="48" y="16" width="8" height="8"/>
+<rect x="56" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="16" y="24" width="8" height="8"/>
+<rect x="24" y="24" width="8" height="8"/>
+<rect x="40" y="24" width="8" height="8"/>
+<rect x="48" y="24" width="8" height="8"/>
+<rect x="56" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="24" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="48" y="32" width="8" height="8"/>
+<rect x="56" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="16" y="40" width="8" height="8"/>
+<rect x="24" y="40" width="8" height="8"/>
+<rect x="32" y="40" width="8" height="8"/>
+<rect x="40" y="40" width="8" height="8"/>
+<rect x="48" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="16" y="48" width="8" height="8"/>
+<rect x="32" y="48" width="8" height="8"/>
+<rect x="40" y="48" width="8" height="8"/>
+<rect x="56" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="40" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="20" y="108" font-family="sans-serif" font-size="3">ID 2</text>
+<path d="M 19 110 h -2 M 20 109 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 110 h 2 M 100 109 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 19 190 h -2 M 20 191 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 190 h 2 M 100 191 v 2" stroke="#777" stroke-width="0.15"/>
+<g transform="translate(110 110)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="16" y="16" width="8" height="8"/>
+<rect x="24" y="16" width="8" height="8"/>
+<rect x="32" y="16" width="8" height="8"/>
+<rect x="56" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="16" y="24" width="8" height="8"/>
+<rect x="32" y="24" width="8" height="8"/>
+<rect x="40" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="24" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="48" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="40" y="40" width="8" height="8"/>
+<rect x="48" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="40" y="48" width="8" height="8"/>
+<rect x="48" y="48" width="8" height="8"/>
+<rect x="56" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="24" y="56" width="8" height="8"/>
+<rect x="32" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="110" y="108" font-family="sans-serif" font-size="3">ID 3</text>
+<path d="M 109 110 h -2 M 110 109 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 110 h 2 M 190 109 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 109 190 h -2 M 110 191 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 190 h 2 M 190 191 v 2" stroke="#777" stroke-width="0.15"/>
+<g transform="translate(20 200)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="16" y="16" width="8" height="8"/>
+<rect x="32" y="16" width="8" height="8"/>
+<rect x="40" y="16" width="8" height="8"/>
+<rect x="48" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="16" y="24" width="8" height="8"/>
+<rect x="24" y="24" width="8" height="8"/>
+<rect x="32" y="24" width="8" height="8"/>
+<rect x="40" y="24" width="8" height="8"/>
+<rect x="48" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="16" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="48" y="32" width="8" height="8"/>
+<rect x="56" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="48" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="16" y="48" width="8" height="8"/>
+<rect x="24" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="16" y="56" width="8" height="8"/>
+<rect x="32" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="20" y="198" font-family="sans-serif" font-size="3">ID 4</text>
+<path d="M 19 200 h -2 M 20 199 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 200 h 2 M 100 199 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 19 280 h -2 M 20 281 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 101 280 h 2 M 100 281 v 2" stroke="#777" stroke-width="0.15"/>
+<g transform="translate(110 200)" fill="black"><rect x="8" y="8" width="8" height="8"/>
+<rect x="16" y="8" width="8" height="8"/>
+<rect x="24" y="8" width="8" height="8"/>
+<rect x="32" y="8" width="8" height="8"/>
+<rect x="40" y="8" width="8" height="8"/>
+<rect x="48" y="8" width="8" height="8"/>
+<rect x="56" y="8" width="8" height="8"/>
+<rect x="64" y="8" width="8" height="8"/>
+<rect x="8" y="16" width="8" height="8"/>
+<rect x="16" y="16" width="8" height="8"/>
+<rect x="24" y="16" width="8" height="8"/>
+<rect x="48" y="16" width="8" height="8"/>
+<rect x="64" y="16" width="8" height="8"/>
+<rect x="8" y="24" width="8" height="8"/>
+<rect x="16" y="24" width="8" height="8"/>
+<rect x="48" y="24" width="8" height="8"/>
+<rect x="56" y="24" width="8" height="8"/>
+<rect x="64" y="24" width="8" height="8"/>
+<rect x="8" y="32" width="8" height="8"/>
+<rect x="32" y="32" width="8" height="8"/>
+<rect x="48" y="32" width="8" height="8"/>
+<rect x="64" y="32" width="8" height="8"/>
+<rect x="8" y="40" width="8" height="8"/>
+<rect x="16" y="40" width="8" height="8"/>
+<rect x="40" y="40" width="8" height="8"/>
+<rect x="64" y="40" width="8" height="8"/>
+<rect x="8" y="48" width="8" height="8"/>
+<rect x="24" y="48" width="8" height="8"/>
+<rect x="32" y="48" width="8" height="8"/>
+<rect x="40" y="48" width="8" height="8"/>
+<rect x="64" y="48" width="8" height="8"/>
+<rect x="8" y="56" width="8" height="8"/>
+<rect x="16" y="56" width="8" height="8"/>
+<rect x="24" y="56" width="8" height="8"/>
+<rect x="64" y="56" width="8" height="8"/>
+<rect x="8" y="64" width="8" height="8"/>
+<rect x="16" y="64" width="8" height="8"/>
+<rect x="24" y="64" width="8" height="8"/>
+<rect x="32" y="64" width="8" height="8"/>
+<rect x="40" y="64" width="8" height="8"/>
+<rect x="48" y="64" width="8" height="8"/>
+<rect x="56" y="64" width="8" height="8"/>
+<rect x="64" y="64" width="8" height="8"/></g>
+<text x="110" y="198" font-family="sans-serif" font-size="3">ID 5</text>
+<path d="M 109 200 h -2 M 110 199 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 200 h 2 M 190 199 v -2" stroke="#777" stroke-width="0.15"/>
+<path d="M 109 280 h -2 M 110 281 v 2" stroke="#777" stroke-width="0.15"/>
+<path d="M 191 280 h 2 M 190 281 v 2" stroke="#777" stroke-width="0.15"/>
+<text x="20" y="290" font-family="sans-serif" font-size="3">Measure actual black borders before using as scale. Nominal artwork is not calibration.</text>
+</svg>

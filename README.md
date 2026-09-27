@@ -123,7 +123,7 @@ flowchart LR
 4. **Register the layers.** Fit a similarity between camera-centre sets to put every
    layer in one site frame, and record how well it fits (`register_twin.py`,
    `twinlib/similarity.py`, `twinlib/arkit.py`).
-5. **Scale.** Put a printed calibration cube or scale bar in the scene; detect its markers
+5. **Scale.** Print a calibration cube (`hardware/`, 3MFs ready to slice) and put it in the scene; detect its markers
    and solve the scale (`photogrammetry/intertidal/intertidal/cube.py`, `scale.py`).
 6. **Measure and publish.** Intertidal crevice measurements, waterline and tide context,
    then a Darwin Core Archive (`intertidal/measure.py`, `export_dwc.py`, `twinlib/dwc.py`).
@@ -143,3 +143,5 @@ flowchart LR
 | `station/workers/bioclip-rerank/` | BioCLIP re-ranking of photographed observations |
 | `station/workers/individual-match/`, `shark-match/` | Shortlists of known individuals for a reviewer |
 | `station/workers/intertidal-recon/`, `shark-morphometrics/` | Scaled reconstruction and measurement jobs |
+| `hardware/calibration-cube/`, `hardware/field-cube/` | The printed AprilTag scale cubes: OpenSCAD sources, STLs, tag artwork and print notes (generator scripts as skeletons) |
+| `hardware/3mf/` | Ready-to-print 3MF files: the 40 mm six-tag cube, numbered cubes 1 to 3, the tiled plate and cube 3 keyed |
