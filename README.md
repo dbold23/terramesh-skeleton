@@ -26,7 +26,7 @@ Interested? [Open an issue](https://github.com/dbold23/terramesh-skeleton/issues
 photogrammetry into a textured preview (12,540 vertices). Metric scale and geographic
 alignment are not yet verified.</sub>
 
-<img src="docs/cave-turntable.gif" width="100%" alt="An abalone cave scanned with an iPhone, turning">
+<img src="docs/abalone-cave.gif" width="100%" alt="An abalone cave scanned with an iPhone and rebuilt in 3D">
 
 <sub>A newer scan: an abalone cave from four iPhone sweeps, 23 September.</sub>
 
