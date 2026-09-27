@@ -9,6 +9,17 @@ in it, then refine it afterwards on a Mac or a field station.
 > and site data are left out. It does not run, but the plan and the docstrings are enough
 > to build your own. You are welcome to; please credit Daniel Sambold if you do.
 
+## Collaborate
+
+I am looking for collaborators. What needs work:
+
+- **Field accuracy.** Metric scale, geographic alignment and surface accuracy are not yet verified in the field; the cube-scaling gates need real site tests.
+- **On-device testing** across iPhones, with and without LiDAR.
+- **Planned pieces not built yet:** GBIF publishing, offsite mirroring and Wi-Fi sync.
+- **Intertidal and cave sites**, and partners who survey them.
+
+Interested? [Open an issue](https://github.com/dbold23/terramesh-skeleton/issues/new) or message me on [LinkedIn](https://www.linkedin.com/in/daniel-sambold-620b37221).
+
 <img src="docs/curb-preview.png" width="100%" alt="Textured reconstruction of a curb and plants from one iPhone video">
 
 <sub>First real-video test: one curb clip, 163 frames, all registered by Apple's native
