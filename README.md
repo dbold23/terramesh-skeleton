@@ -15,6 +15,10 @@ in it, then refine it afterwards on a Mac or a field station.
 photogrammetry into a textured preview (12,540 vertices). Metric scale and geographic
 alignment are not yet verified.</sub>
 
+<img src="docs/cave-turntable.gif" width="100%" alt="An abalone cave scanned with an iPhone, turning">
+
+<sub>A newer scan: an abalone cave from four iPhone sweeps, 23 September.</sub>
+
 ## The plan
 
 [`docs/architecture.md`](docs/architecture.md) is the design: SwiftUI, ARKit, Core
