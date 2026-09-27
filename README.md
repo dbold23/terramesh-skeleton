@@ -19,15 +19,86 @@ alignment are not yet verified.</sub>
 
 <sub>A newer scan: an abalone cave from four iPhone sweeps, 23 September.</sub>
 
-## The plan
+## Architecture now
 
-[`docs/architecture.md`](docs/architecture.md) is the design: SwiftUI, ARKit, Core
-Location, Vision and Core ML, RealityKit. ARKit's visual-inertial tracking gives a metric
-local route (no double-integrating the accelerometer); LiDAR depth places an observation
-directly when it exists, and multiple viewpoints triangulate it when it does not. The
-first deliverable is a walk trajectory with clickable 3D observations and their evidence;
-full textured surfaces come later, off the phone. Links in it to the app code point at
-parts that are not in this skeleton.
+```mermaid
+flowchart LR
+  classDef planned stroke-dasharray: 5 5,opacity:0.8
+  subgraph Phone["iPhone: capture"]
+    AR["ARKit poses<br/>+ LiDAR depth"] --> REC["Survey recorder<br/>stills · 45 s sweeps · sound"]
+    GUIDE["Live guides<br/>cube tag reader · crevice coverage · blur check"] --> REC
+    REC --> LED["Signed ledger + seal<br/>Secure Enclave ES256"]
+  end
+  subgraph Station["Mac Station: archive + compute"]
+    VAULT[("Vault<br/>SHA-256 named, read-only")]
+    PG["Photogrammetry<br/>ALIKED + LightGlue → COLMAP (ARKit priors)<br/>→ cube scale → OpenMVS dense"]
+    MET["mm models · crevice metrics<br/>coverage · tide heights"]
+    WK["uv workers<br/>audio ID · shark re-ID · BioCLIP"]
+    VER["Verify + C2PA credentials"]
+    VAULT --> PG --> MET
+    VAULT --> WK
+    VAULT --> VER
+  end
+  subgraph Cloud["Public"]
+    R2["R2: web-sized derivatives<br/>WebP · Draco / 3D Tiles"]
+    GBIF["GBIF publishing"]:::planned
+  end
+  LED -- "export ZIP" --> VAULT
+  VAULT -. "receipts → Free up" .-> REC
+  MET --> R2
+  WK --> R2
+  MET --> GBIF
+  VAULT -.-> MIR[("Mirror drive → R2 offsite")]:::planned
+  REC -.-> WIFI["Wi-Fi sync (Bonjour)"]:::planned
+```
+
+<sub>Dashed boxes are planned, not built. Drawn from the current docs on 27 September.
+[`docs/architecture.md`](docs/architecture.md) is the original 10 September design it grew
+from (SwiftUI, ARKit, Core Location, Vision and Core ML, RealityKit; ARKit's visual-inertial
+tracking for a metric route, LiDAR or multiple viewpoints to place an observation). Links in
+it to the app code point at parts that are not in this skeleton.</sub>
+
+## Photogrammetry, stage by stage
+
+<img src="docs/pipeline-stages.gif" width="100%" alt="The abalone cave at each stage: sparse points, dense cloud, mesh, textured model">
+
+<sub>The 23 September abalone cave from one fixed camera: COLMAP sparse points, the OpenMVS
+dense cloud (10.7 million points), the cleaned millimetre mesh, and the textured model.</sub>
+
+```mermaid
+flowchart LR
+  V["Phone sweep<br/>video + ARKit poses"] --> F["Frames"]
+  C["Calibration cube<br/>AprilTags"] --> S
+  F --> M["ALIKED + LightGlue<br/>features & matches"] --> SP["COLMAP 4.2<br/>sparse, pose priors"]
+  SP --> S["Cube scale<br/>→ millimetres"] --> D["OpenMVS<br/>dense cloud"] --> ME["Mesh + photo texture"]
+  ME --> K["Crevice metrics<br/>width · height · depth · seen %"]
+  ME --> T["Tide heights"]
+```
+
+## Post-processing
+
+<table>
+<tr>
+<td width="50%"><img src="docs/post/tag-detections.jpg" width="100%" alt="Phone still with the calibration cube's AprilTags detected"></td>
+<td width="50%"><img src="docs/post/cube-detection.png" width="100%" alt="Cube and tag positions located on the dense cloud"></td>
+</tr>
+<tr>
+<td align="center"><sub>AprilTags found on the calibration cube</sub></td>
+<td align="center"><sub>The cube located on the dense cloud: this sets the scale</sub></td>
+</tr>
+<tr>
+<td><img src="docs/post/camera-path.png" width="100%" alt="Camera path of the registered stills"></td>
+<td><img src="docs/post/coverage.png" width="100%" alt="Surface coverage map"></td>
+</tr>
+<tr>
+<td align="center"><sub>Where every registered still was taken</sub></td>
+<td align="center"><sub>How well each part of the surface was seen</sub></td>
+</tr>
+</table>
+
+<img src="docs/post/desk-model.jpg" width="100%" alt="The final textured model from four sides">
+
+<sub>The finished model from four sides (desk-cube test, 25 September).</sub>
 
 ## Build your own
 
