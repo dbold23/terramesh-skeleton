@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for offering to test. Early builds are rough, and honest reports are the most useful thing you can send.
         
-        Issues are public. Please do not post an email address, phone number or exact site coordinates here. I will reply on the issue and we can move to private contact from there.
+        Issues are public. Please do not post an email address, phone number or exact site coordinates here. I will reply on the issue. To reach me privately instead, email daniel.sambold@gmail.com.
   - type: input
     id: who
     attributes:
