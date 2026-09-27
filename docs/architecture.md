@@ -2,11 +2,11 @@
 
 Research date: September 10, 2026. The goal is a native iPhone app that records a walk, identifies biodiversity with useful capture guidance, and puts observations into a usable 3D habitat map. Hardware features are optional enhancements. This document recommends a build and validation path; no app, species classifier, or 3D reconstruction has been benchmarked on the samples yet.
 
-Implementation update: a native prototype now exists in [ios/](ios/README.md). It implements the capture/evidence foundation, provisional point placement, and limited model inference; see [verification](ios/VERIFICATION.md) for completed software checks. The broader architecture below remains a roadmap, and its field accuracy gates remain untested.
+Implementation update: a native prototype now exists in ios/. It implements the capture/evidence foundation, provisional point placement, and limited model inference; see verification for completed software checks. The broader architecture below remains a roadmap, and its field accuracy gates remain untested.
 
-Photogrammetry update: a separate [local video reconstruction pipeline](photogrammetry/README.md) now produces a textured preview from the supplied curb clip and registers all 163 sampled images. [Experiment results](photogrammetry/RESULTS.md) preserve independent sparse models, camera evidence and artifact checks. This is not yet integrated into iPhone capture, and its metric scale, joins and geographic alignment remain unverified.
+Photogrammetry update: a separate local video reconstruction pipeline now produces a textured preview from the supplied curb clip and registers all 163 sampled images. Experiment results preserve independent sparse models, camera evidence and artifact checks. This is not yet integrated into iPhone capture, and its metric scale, joins and geographic alignment remain unverified.
 
-Live guide update: the native app now combines general scene-region proposals, short-lived 2D tracking, broad semantic descriptions and hierarchical iNaturalist sample-model suggestions. [Live capture guide](ios/LIVE-GUIDE.md) explains the red/yellow/green behavior and exact-frame evidence saving. Green means consistent model suggestions requiring review; it never automatically grants Research Grade. This is a limited candidate pipeline, not verified detection of every organism or litter item.
+Live guide update: the native app now combines general scene-region proposals, short-lived 2D tracking, broad semantic descriptions and hierarchical iNaturalist sample-model suggestions. Live capture guide explains the red/yellow/green behavior and exact-frame evidence saving. Green means consistent model suggestions requiring review; it never automatically grants Research Grade. This is a limited candidate pipeline, not verified detection of every organism or litter item.
 
 ## Recommendation
 
@@ -26,7 +26,7 @@ I inspected 36 evenly spaced preview frames across three videos. Their combined 
 | Boardwalk with dense vegetation | Rigid rails help tracking but can intercept depth intended for a plant; vegetation often needs patch-level observations. |
 | Curb with grass and separated low plants | Best first controlled pilot: stable curb geometry, some visually separable plants, and opportunities for short multiview captures. |
 
-The files are useful RGB baselines. No documented AR pose/depth package or explicit GPS tag was recovered by the inspection; proprietary metadata remains partly undecoded. They do not establish live performance, metric accuracy, or species accuracy. See [sample assessment](analysis/sample-assessment.md) and [machine-readable verification](analysis/samples/inspection.json).
+The files are useful RGB baselines. No documented AR pose/depth package or explicit GPS tag was recovered by the inspection; proprietary metadata remains partly undecoded. They do not establish live performance, metric accuracy, or species accuracy. See sample assessment and machine-readable verification.
 
 ## The recording experience
 
@@ -95,7 +95,7 @@ The model pipeline should be **region proposal → target tracking → image-qua
 
 For the integration prototype, evaluate iNaturalist's publicly released small Core ML model and taxonomy against the sample organisms it actually covers. Its public repository says full species models remain private. Therefore full iNaturalist-level coverage needs an appropriate model arrangement or another validated model; it is not an API assumption. [iNaturalist model availability](https://github.com/inaturalist/model-files)
 
-Evaluate BioCLIP-family models as optional desktop/server reference classifiers or candidates for a later smaller mobile model. Compare versions using the same held-out observations and inspect exact checkpoint licenses; a newer/larger model is not automatically better for these scenes. A plant-specific multi-image service can be an optional specialist, but does not solve all biodiversity. See [biodiversity research and model choices](research/biodiversity.md).
+Evaluate BioCLIP-family models as optional desktop/server reference classifiers or candidates for a later smaller mobile model. Compare versions using the same held-out observations and inspect exact checkpoint licenses; a newer/larger model is not automatically better for these scenes. A plant-specific multi-image service can be an optional specialist, but does not solve all biodiversity. See biodiversity research and model choices.
 
 Keep three distinct states visible:
 
@@ -127,13 +127,13 @@ Record a **continuous GPS/location trace**, not just a start point. Fit an uncer
 
 Use MapKit aerial/satellite imagery for context first. Satellite can help place an exposed trail, clearing, or recognizable structure in the wider landscape. It cannot supply matching views of organisms hidden below a canopy. Sentinel-2's finest bands are 10 m per pixel, so those images are useful for landscape context rather than individual-plant anchoring. Higher-resolution aerial imagery still needs common visible landmarks and a measured registration error. [ESA Sentinel-2 specifications](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Facts_and_figures)
 
-Apple geographic AR localization is optional: it depends on internet and provider imagery in supported areas and does not establish universal trail/forest coverage. If repeat surveys require precise absolute positions, add visible surveyed controls and independent check points as an advanced workflow. See [geospatial research](research/geospatial-reconstruction.md).
+Apple geographic AR localization is optional: it depends on internet and provider imagery in supported areas and does not establish universal trail/forest coverage. If repeat surveys require precise absolute positions, add visible surveyed controls and independent check points as an advanced workflow. See geospatial research.
 
 ## Photogrammetry after capture
 
 For the first offline experiment, use **COLMAP/PyCOLMAP** on selected sharp, overlapping frames: recover/refine cameras and sparse structure, then optionally densify successful static patches. Preserve AR calibration and poses as usable constraints/priors or validation inputs through an explicit adapter; full AR pose-graph fusion is not implied by a default command. Export refinements back to the observation map. COLMAP provides a conventional staged pipeline suitable for this test. [COLMAP tutorial](https://colmap.github.io/tutorial.html)
 
-Apple Object Capture is appropriate to evaluate for isolated specimens/objects, but its guided object workflow is a poor foundation for the whole walking survey. Gaussian splats may later improve visual review but should remain a derived visualization. Learned reconstruction such as MapAnything is a later comparison using the same held-out geometric references; select the exact permitted checkpoint. None replaces measured evidence or makes hidden habitat observed. More details and verified hardware/license constraints are in [reconstruction research](research/geospatial-reconstruction.md).
+Apple Object Capture is appropriate to evaluate for isolated specimens/objects, but its guided object workflow is a poor foundation for the whole walking survey. Gaussian splats may later improve visual review but should remain a derived visualization. Learned reconstruction such as MapAnything is a later comparison using the same held-out geometric references; select the exact permitted checkpoint. None replaces measured evidence or makes hidden habitat observed. More details and verified hardware/license constraints are in reconstruction research.
 
 ## Minimal recording contract
 
@@ -166,8 +166,8 @@ Neither reconstruction nor classifier accuracy, battery performance, absolute lo
 
 ## Supporting work
 
-- [Native iPhone capture research](research/ios-mapping.md)
-- [Biodiversity model and guidance research](research/biodiversity.md)
-- [Geospatial and reconstruction research](research/geospatial-reconstruction.md)
-- [Sample assessment](analysis/sample-assessment.md)
-- [Reproducible sample inspection script](analysis/inspect_samples.py)
+- Native iPhone capture research
+- Biodiversity model and guidance research
+- Geospatial and reconstruction research
+- Sample assessment
+- Reproducible sample inspection script

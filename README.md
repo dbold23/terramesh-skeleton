@@ -25,7 +25,7 @@ I am looking for collaborators. What needs work:
   <a href="mailto:daniel.sambold@gmail.com?subject=About%20TerraMesh"><img alt="Email me" src="https://img.shields.io/badge/Email%20me-daniel.sambold%40gmail.com-0b1f33?style=for-the-badge&labelColor=f2a93b&logo=gmail&logoColor=0b1f33"></a>
 </p>
 
-<sub>The first buttons open a short public form (needs a GitHub account). No account, or rather keep it private? Email <a href="mailto:daniel.sambold@gmail.com">daniel.sambold@gmail.com</a> or message me on <a href="https://www.linkedin.com/in/daniel-sambold-620b37221">LinkedIn</a>.</sub>
+<sub>Beta testing needs an iPhone (LiDAR Pro models help most, but any recent iPhone is useful); I reply on the issue with next steps. The first buttons open a short public form (needs a GitHub account). No account, or rather keep it private? Email <a href="mailto:daniel.sambold@gmail.com">daniel.sambold@gmail.com</a> or message me on <a href="https://www.linkedin.com/in/daniel-sambold-620b37221">LinkedIn</a>.</sub>
 
 <img src="docs/curb-preview.png" width="100%" alt="Textured reconstruction of a curb and plants from one iPhone video">
 
@@ -35,7 +35,16 @@ alignment are not yet verified.</sub>
 
 <img src="docs/abalone-cave.gif" width="100%" alt="An abalone cave scanned with an iPhone and rebuilt in 3D">
 
-<sub>A newer scan: an abalone cave from four iPhone sweeps, 23 September.</sub>
+<sub>A newer scan: an abalone cave, 23 September.</sub>
+
+## Where it stands
+
+- **Works today:** phone capture with ARKit poses and a signed evidence ledger; COLMAP and
+  OpenMVS reconstruction on a Mac station (10.7 million dense points on the abalone cave);
+  printed AprilTag cubes that set the scale; coverage maps and crevice metrics.
+- **Not yet verified:** metric scale, geographic alignment and surface accuracy in the
+  field. Treat every number here as a lab result until the field tests are done.
+- **Planned, not built:** GBIF publishing, offsite mirroring and Wi-Fi sync (dashed below).
 
 ## Architecture now
 
@@ -73,8 +82,8 @@ flowchart LR
 <sub>Dashed boxes are planned, not built. Drawn from the current docs on 27 September.
 [`docs/architecture.md`](docs/architecture.md) is the original 10 September design it grew
 from (SwiftUI, ARKit, Core Location, Vision and Core ML, RealityKit; ARKit's visual-inertial
-tracking for a metric route, LiDAR or multiple viewpoints to place an observation). Links in
-it to the app code point at parts that are not in this skeleton.</sub>
+tracking for a metric route, LiDAR or multiple viewpoints to place an observation). Parts it
+mentions, such as the app code, are not in this skeleton.</sub>
 
 ## Photogrammetry, stage by stage
 
